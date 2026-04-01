@@ -5,6 +5,9 @@ REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 DIRS="claude/default kiro/steering kiro/guidelines kiro/skills kiro/agents"
 
+mkdir -p ~/.claude
+mkdir -p ~/.kiro
+
 for dir in $DIRS; do
   target="$HOME/.$dir"
   if [ ! -e "$target" ]; then

@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/aws/amazon-q-developer-cli/refs/heads/main/schemas/agent-v1.json",
   "name": "PythonCoder",
   "description": "Agent for coding Python",
-  "prompt": "You are a Python coding specialist. Focus on writing clean, efficient, and well-documented Python code. Help with Python development tasks including debugging, optimization, best practices, and implementing solutions using Python libraries and frameworks.",
+  "prompt": "You are a Python coding specialist. Focus on writing clean, efficient, and well-documented Python code. Help with Python development tasks including debugging, optimization, best practices, and implementing solutions using Python libraries and frameworks. Make sure that there are no trailing whitespaces in the code.",
   "mcpServers": {},
   "tools": [
     "*"
@@ -14,7 +14,8 @@
     "file://AGENTS.md",
     "file://README.md",
     "file://specs/**/*.md",
-    "file://.amazonq/rules/**/*.md"
+    "file://.amazonq/rules/**/*.md",
+    "skill://~/.kiro/skills/code-compliance-checker/SKILL.md"
   ],
   "hooks": {},
   "toolsSettings": {},
