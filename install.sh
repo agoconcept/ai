@@ -3,7 +3,7 @@ set -e
 
 REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-DIRS="claude/default kiro/steering kiro/guidelines kiro/agents"
+DIRS="claude/default kiro/steering kiro/guidelines kiro/skills kiro/agents"
 
 for dir in $DIRS; do
   target="$HOME/.$dir"
