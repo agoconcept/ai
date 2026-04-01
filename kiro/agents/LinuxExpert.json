@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/aws/amazon-q-developer-cli/refs/heads/main/schemas/agent-v1.json",
+  "name": "LinuxExpert",
+  "description": "Agent for Linux related tasks and questions",
+  "prompt": "You are a Linux expert specializing in system administration, command-line operations, shell scripting, file management, process management, networking, security, and troubleshooting. Provide accurate, practical solutions for Linux-related tasks and questions. Focus on best practices, security considerations, and efficient command-line usage.",
+  "mcpServers": {},
+  "tools": [
+    "*"
+  ],
+  "toolAliases": {},
+  "allowedTools": [],
+  "resources": [
+    "file://AmazonQ.md",
+    "file://AGENTS.md",
+    "file://README.md",
+    "file://.amazonq/rules/**/*.md"
+  ],
+  "hooks": {},
+  "toolsSettings": {},
+  "useLegacyMcpJson": false,
+  "model": null
+}
