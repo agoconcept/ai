@@ -18,3 +18,6 @@ done
 # Set up delta as diff tool for kiro CLI
 kiro-cli settings chat.diffTool delta
 
+# Enable Knowledge Management in kiro CLI
+kiro-cli settings chat.enableKnowledge true
+

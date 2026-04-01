@@ -8,6 +8,16 @@
     "file://~/.kiro/steering/dev-practices.md",
     "file://~/.kiro/guidelines/security-review.md",
     "file://~/.kiro/guidelines/git-workflow.md",
-    "skill://~/.kiro/skills/spec-driven-development.md"
+    "skill://~/.kiro/skills/spec-driven-development.md",
+    "file://AGENTS.md",
+    {
+      "type": "knowledgeBase",
+      "source": "file://.agents/",
+      "name": "docs for agents",
+      "description": "Project documentation, code, and specifications",
+      "indexType": "best",
+      "autoUpdate": true
+    }
   ]
 }
+
